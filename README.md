@@ -1,11 +1,11 @@
  
 # Gitting to Know Git!
 
-## Industry Rationale: 
+## Industry Rationale
 
 Version control systems are the cornerstone of life in industry. Without version control systems, modern application development would not be possible. Understanding, familiarity, and ease of use with git is essential.
 
-## Objectives: 
+## Objectives
 
 - Introduction to Version Control
 - Overview of Git + GitHub
@@ -14,22 +14,21 @@ Version control systems are the cornerstone of life in industry. Without version
 - Basic Git Commands
 - GitHub Repository Setup
 
-## Scoring Rubric:
+## Scoring Rubric
 
 | Task | Full Credit | Partial Credit |	Zero Credit |
 |-|-|-|-|
-| 1. Create GitHub Account | Creates GitHub account and is accessible from the Internet. |	Creates GitHub account but supplies incorrect GitHub account name. | Does not create a GitHub account. |
+| 1. Create GitHub Account | Creates account and is accessible from the Internet. |	Creates account but supplies incorrect account name. | Does not create an account. |
 | 2. Basic Git Commands	| Clones public repo correctly and follows directions in the txt file. | Clones repo, but does not follow directions correctly in the txt file. | Fails to clone the public repo. |
 | 3. GitHub Public Repo Setup | Creates a public repo, is correctly named, and initialized with correct files. | Creates a public repo, but incorrectly named or initialized incorrectly. | Fails to create a public repo. |
-| 4. Lab scorer output file. | Student submits the lab scorer output file.  All scores equate to full credit. | N/A | Student fails to submit a lab scorer file or submits an obviously empty file. |
 
-### Task 1 (5 pts):  
+### Task 1 (5 pts)
 
 Create a GitHub account. If you already have one, great! Either way, just list your username below:
 
 [Username]
 
-### Task 2 (5 pts):
+### Task 2 (5 pts)
 
 Locally clone this public repository with the following command: 
 
@@ -43,7 +42,8 @@ to find a single text file inside. Open that file to find the secret word! Write
 
 [Secret Word]
 
-### Task 3 (10 pts):
+### Task 3 (10 pts)
+
 Create and share a GitHub project by doing the following:
 
 1. Create a new, public project **exactly** named: `CSC213Lab1` in your GitHub account.
