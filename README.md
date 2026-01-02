@@ -20,7 +20,8 @@ Version control systems are the cornerstone of life in industry. Without version
 |-|-|-|-|
 | 1. Create GitHub Account | Creates account and is accessible from the Internet. |	Creates account but supplies incorrect account name. | Does not create an account. |
 | 2. Basic Git Commands	| Clones public repo correctly and follows directions in the txt file. | Clones repo, but does not follow directions correctly in the txt file. | Fails to clone the public repo. |
-| 3. GitHub Public Repo Setup | Creates a public repo, is correctly named, and initialized with correct files. | Creates a public repo, but incorrectly named or initialized incorrectly. | Fails to create a public repo. |
+| 3. Setting up SSH with GitHub | Correctly sets up SSH with GitHub | N/A | Does not setup SSH |
+| 4. GitHub Public Repo Setup | Creates a public repo, is correctly named, and contains the correct files. | Creates a public repo, but incorrectly named or doesn't contain the correct files. | Fails to create a public repo. |
 
 ### Task 1 (5 pts)
 
