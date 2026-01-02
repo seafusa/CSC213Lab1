@@ -51,15 +51,8 @@ Create and share a GitHub project by doing the following:
 3. Create a folder named `src` in that project.
 4. Add a file named `HelloWorld.java` in that folder.
 5. When run, this file should print `Hello World` to the terminal.
-6. Add and commit the file and directory using git:
-
-    `git add /path/to/HelloWorld.java` 
-
-    `git commit -m "Initial commit."`
-
-7. Push the committed updated code to GitHub with the command:
-
-    `git push -u origin main`
+6. Add and commit the file and directory.
+7. Push the committed updated code to GitHub.
 
 List the project’s HTTPS URL so that it can be cloned:
 
