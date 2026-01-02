@@ -24,7 +24,13 @@ Version control systems are the cornerstone of life in industry. Without version
 
 ### Task 1 (5 pts)
 
-Create a GitHub account. If you already have one, great! Either way, just list your username below:
+Create a GitHub account. If you already have one, great! Either way:
+
+- [Setup
+  2FA](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
+  if it isn't already! 
+    - This helps to keep your GitHub account secure and out of the hands of would-be hackers! (This genuinely saved my butt once O_o!?).
+- list your username below:
 
 [Username]
 
@@ -32,22 +38,37 @@ Create a GitHub account. If you already have one, great! Either way, just list y
 
 Locally clone this public repository with the following command: 
 
-`git clone https://github.com/JonMrowczynski/CSC213Lab1.git`  
+`git clone https://github.com/JonMrowczynski/CSC213Lab1.git`
 
-It has a single encrypted zip file in it. Open it with the password: 
+Notice we are using HTTPS! This is a beginner-friendly approach and is fine if you just need to
+download a repo from GitHub.
+
+It's generally better to utilize SSH. Especially if you also need to push commits to remote repos! We'll handle this
+soon, though.
+
+Anyway, this repo has a single encrypted zip file in it. Open it with the password: 
 
 CSC213!whiz
 
-to find a single text file inside. Open that file to find the secret word! Write that word (case sensitive!) below:
+to find a single text file inside that contains a secret word! Copy and paste that word below:
 
 [Secret Word]
 
 ### Task 3 (10 pts)
 
+It ends up being relatively awkward in the long-term to use HTTPS. You will have to create a Personal Access Token (PAT) on
+GitHub and then enter your username and that token in place of your password every time you want to push commits to remote
+repos! For better long-term convenience, it's useful to know how to setup SSH with GitHub.
+
+Instructions to do so can be found in [Using SSH with GitHub.md](./Using%20SSH%20with%20GitHub.md)
+
+
+### Task 4 (10 pts)
+
 Create and share a GitHub project by doing the following:
 
 1. Create a new, public project **exactly** named: `CSC213Lab1` in your GitHub account.
-2. Clone that project locally.
+2. Clone that project locally using SSH.
 3. Create a folder named `src` in that project.
 4. Add a file named `HelloWorld.java` in that folder.
 5. When run, this file should print `Hello World` to the terminal.
